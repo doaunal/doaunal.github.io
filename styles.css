@@ -3,17 +3,19 @@ body {
    
 }
 
-div.anabaslik {
+div {
     background:rgb(166, 137, 98) ;
     width: 50%;
     border-width: 50%;
     border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div a {
-    color: rgb(115, 48, 0);
-    padding: 10%;
-    font-size: 16px;
+    color: rgb(115, 48, 0) ;
+    padding: 10% ;
+    font-size: 18px ;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -22,22 +24,44 @@ p {
     background-color: rgb(220, 192, 151);
     opacity: 0.7;
     border-radius: 1px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     color: rgb(73, 37, 10);
     text-shadow: 2px 2px 5px rgb(75, 32, 1);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
     color: rgb(73, 37, 10);
     text-shadow: 2px 2px 5px rgb(75, 32, 1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: rgb(73, 37, 10);
+    text-shadow: 2px 2px 5px rgb(75, 32, 1);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
     color: rgb(192, 140, 64);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-    color: rgb(75, 32, 1);
+ol{
+    color: rgb(192, 140, 64);
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+* {
+    margin: 0;
+}
+
+footer {
+    background-color: sienna;
+    color: rgb(73, 37, 10);
 }
