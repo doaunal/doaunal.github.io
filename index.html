@@ -1,6 +1,8 @@
 <html>
     <head>
-
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
         <title> Ricardo Quaresma </title>
         <link rel="stylesheet" href="styles.css">
 
@@ -8,7 +10,7 @@
             <body>
                 
                 <header>
-                    <div>
+                    <div class="header-links">
                         <a href="index.html"> Anasayfa </a>
                         <a href="futbol.html"> Futbol Hayatı </a>
                         <a href="ozel.html"> Özel Hayatı </a>
@@ -20,7 +22,34 @@
                 <h1> Ricardo Quaresma </h1>
                 <hr> 
                 <br>
-                <img width="300" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Ricardo_Quaresma_%28cropped%29_2.jpg/375px-Ricardo_Quaresma_%28cropped%29_2.jpg" alt="">
+                
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="slide/quaresma1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="slide/quaresma4.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="slide/quaresma5.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            
                 <br>
                 <br>
                 <p> Ricardo Andrade Quaresma Bernardo kanat pozisyonunda görev yapmış Portekizli eski futbolcudur.Futbol kariyerine Sporting Lizbon'da başladı ve sırasıyla Barcelona, İnter Milan, Porto, Chelsea, Beşiktaş, El-Ehli, Kasımpaşa ve son olarak da Vitória forması giydi. Dünya futbolunun sayılı yeteneklerinden biri olarak kabul edilen Quaresma, rabona ve trivela hareketleriyle tanınmaktadır.

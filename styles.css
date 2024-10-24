@@ -3,7 +3,7 @@ body {
    
 }
 
-div {
+div.header-links {
     background: rgb(166, 137, 98);
     width: 50%;
     height: 40px;
